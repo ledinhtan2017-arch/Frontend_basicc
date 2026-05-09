@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,12 +102,120 @@ body {
   border-radius: 30px;
   color: chocolate;
   padding: 10px 25px;
-  background: transparent;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
 .about:hover {
   background: chocolate;
   color: white;
+}
+
+.about-me {
+  border-bottom: 2px solid #d46e1b;
+  width: 80px;
+  text-align: left;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: auto;
+}
+
+.skills {
+  border-bottom: 2px solid #d46e1b;
+  width: 110px;
+  text-align: left;
+}
+
+.card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px;
+}
+
+.card {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: azure;
+}
+
+.experience-content {
+  display: flex;
+  text-align: left;
+}
+
+.experience {
+  border-bottom: 2px solid #d46e1b;
+  width: 130px;
+  text-align: left;
+}
+
+.cause {
+  font-family: "Cause", cursive;
+  font-optical-sizing: auto;
+}
+
+.font-company {
+  font-size: 30px;
+  color: darkgrey;
+}
+
+.font-work {
+  font-size: 20px;
+}
+
+.lastest {
+  border-bottom: 2px solid #d46e1b;
+  width: 120px;
+  text-align: left;
+}
+
+.label {
+  display: flex;
+  background-color: azure;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+.talk {
+  display: inline-block;
+  margin: auto;
+}
+
+.lets-talk {
+  border: 2px solid #d46e1b;
+  border-radius: 30px;
+  color: chocolate;
+  padding: 10px 25px;
+  background-color: black;
+}
+
+.lets-talk:hover {
+  background: chocolate;
+  color: white;
+}
+
+.source-sans-3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#header-talk {
+  color: grey;
+}
+
+#end-talk {
+  color: grey;
 }
