@@ -1,0 +1,143 @@
+span {
+  font-size: 1.5em;
+  color: aliceblue;
+}
+
+p {
+  color: aliceblue;
+}
+
+.image1 {
+  font-family: "Montserrat", sans-serif;
+  width: 450px;
+  height: 350px;
+  background-image: url(https://tympanus.net/Development/HoverEffectIdeas/img/6.jpg);
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.image1:hover {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(https://tympanus.net/Development/HoverEffectIdeas/img/6.jpg);
+}
+
+.box-border {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  right: 40px;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transform: scale(0.92);
+  transition: transform 0.4s ease-in-out;
+}
+
+.box-border1 {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transform: scale(0.92);
+  transition: transform 0.4s ease-in-out;
+}
+
+.box-border2 {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transform: scale(0.92);
+  transition: transform 0.4s ease-in-out;
+}
+
+.box-border3 {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  left: 40px;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transform: scale(0.92);
+  transition: transform 0.4s ease-in-out;
+}
+
+.image1:hover .box-border {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image1:hover .box-border1 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image1:hover .box-border2 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image1:hover .box-border3 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.content {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.light-text {
+  font-weight: 200;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.text1 {
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease-in-out;
+}
+
+.image1:hover .text1 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image2 {
+  font-family: "Montserrat", sans-serif;
+  width: 450px;
+  height: 350px;
+  background-image: url(https://tympanus.net/Development/HoverEffectIdeas/img/2.jpg);
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.image2:hover {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25)),
+    url(https://tympanus.net/Development/HoverEffectIdeas/img/2.jpg);
+}
+
+.text2 {
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(140px);
+  transition: all 0.4s ease-in-out;
+}
+
+.image2:hover .text2 {
+  opacity: 1;
+  transform: translateY(120px);
+}
